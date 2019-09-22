@@ -1,6 +1,7 @@
 #ifndef GRAPHIC_H
 #define GRAPHIC_H
 #include "IGraphic.h"
+//real subject inherits subject interface
 class Graphic : public IGraphic
 {
 public:

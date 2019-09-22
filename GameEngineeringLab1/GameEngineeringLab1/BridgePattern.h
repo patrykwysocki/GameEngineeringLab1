@@ -1,4 +1,5 @@
 #include <iostream>
+// Abstract  character class for bridge pattern
 class CharacterBP
 {
 public:
@@ -31,6 +32,7 @@ HandleToCharacter::~HandleToCharacter()
 {
 }
 
+// abstract of draw API.
 class DrawAPI
 {
 public:
@@ -49,6 +51,9 @@ DrawAPI::DrawAPI()
 DrawAPI::~DrawAPI()
 {
 }
+
+// The implementation, 
+//inherits the base DrawAPI interface
 class DrawImpl : public DrawAPI
 {
 public:

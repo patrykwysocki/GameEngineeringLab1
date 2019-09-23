@@ -1,6 +1,3 @@
-﻿  Graphic.cpp
-  GraphicProxy.cpp
-  main.cpp
-C:\Users\wysoc\Desktop\GameEngineeringLabs\GameEngineeringLab1\GameEngineeringLab1\main.cpp(17): warning C4018: '<': signed/unsigned mismatch
-  Generating Code...
-  GameEngineeringLab1.vcxproj -> C:\Users\wysoc\Desktop\GameEngineeringLabs\GameEngineeringLab1\Debug\GameEngineeringLab1.exe
+﻿  main.cpp
+C:\Users\patrykwysocki\Desktop\GameEngineeringLabs\GameEngineeringLab1\GameEngineeringLab1\main.cpp(13,20): warning C4018:  '<': signed/unsigned mismatch
+  GameEngineeringLab1.vcxproj -> C:\Users\patrykwysocki\Desktop\GameEngineeringLabs\GameEngineeringLab1\Debug\GameEngineeringLab1.exe

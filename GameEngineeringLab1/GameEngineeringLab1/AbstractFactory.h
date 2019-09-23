@@ -14,11 +14,12 @@ public:
 Character::Character()
 {
 }
-
 Character::~Character()
 {
 	std::cout << "delete character" << std::endl;
 }
+
+
 
 // The child of Character class, the player.
 // will override to do player stuff

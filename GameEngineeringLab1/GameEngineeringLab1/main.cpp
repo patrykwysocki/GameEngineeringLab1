@@ -16,6 +16,9 @@ int main()
 		delete characters.at(i);
 	}
 
+	HandleToCharacter handle;
+	handle->draw();
+	delete handle.operator->();
 
 	DrawAPI* api = new DrawImpl();
 	CharacterBP* characterbp = new PlayerBP(api);
